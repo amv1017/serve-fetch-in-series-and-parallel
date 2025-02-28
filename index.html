@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React! React! React!</title>
-  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-  <style>
-    #root img {      
-      margin: 0 auto;
-      display: block;
-      filter: brightness(90%) contrast(150%);
-      width: 600px;
-    }
-  </style>
-</head>
-<body>
-  <div id="root"></div>
-  <script src="front.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>App</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="loaderplace">
+          <h4 id="loader">Loading...</h4>
+        </div>
+        <span>
+          <button id="btns">in sequence</button>
+          <button id="btnp">in parallel</button>
+        </span>
+      </div>
+      <ul id="list"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
