@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+main {
+  margin: 30px;
+}
+
+ul {
+  margin: 10px 40px;
+}
+
+.loaderplace {
+  height: 30px;
+}
+
+.container {
+  width: fit-content;
+}
+
+#loader {
+  text-align: center;
+  display: none;
+}
