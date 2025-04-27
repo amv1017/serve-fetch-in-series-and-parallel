@@ -1,0 +1,10 @@
+{
+  "name": "serve-fetch-in-series-and-parallel",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "dev": "nodemon main.js"
+  }
+}
